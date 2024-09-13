@@ -18,3 +18,8 @@ console.log("Hello from main.js again");
 
 // while the thread is busy we will be ignoring the callback queue
 // event loop checks what is the latest code that need to run out
+
+//we can use setTimeout to delay the execution of the code
+setTimeout(function () {
+  console.log("Hello from setTimeout");
+}, 1000);
